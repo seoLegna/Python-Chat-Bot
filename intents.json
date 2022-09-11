@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered", "What can you tell me about Akshaya Patra?"],
+         "responses": ["I can tell you what Akshaya Patra is, what their goal is, how to contant them and how you can help them", "Akshaya Patra is a non-profit organization that is supported by the Government of India to implement the Mid-Day Meal Programme. I can help you understand them better and also help you get in contact with them"],
+         "context": [""]
+        },
+        {"tag": "akshaya_patra",
+         "patterns": ["How to contact Akshaya Patra?", "Give me more information about Akshaya Patra", "Tell me more about Akshaya Patra", "List all the things Askshaya Patra does", "What is Akshaya Patra?" ],
+         "responses": ["The Akshaya Patra Foundation is a non-profit organisation in India that operates a school lunch programme. The organisation was established in 2000. It aims to counter classroom hunger and aid in education of children. It feeds 1,800,907 children every day across India. They stive to avoid classroom hunger, tackle malnutrition in schools, increase enrolment and attendance in schools, improve socialisation among castes, empower women with employment opportunities. Their vision is to feed 5 million children by 2025. To contact them you can call them on: +91 8030143400 or you can visit: https://akshayapatra.com/contact/"],
+         "context": [""]
+        },
+        {"tag": "donate",
+         "patterns": ["How can I donate?", "Where can I donate?", "How to donate?", "Can I donate?", "Show me where to donate", "I want to help", "Donate to Akshaya Patra", "Is Donating to an Individual’s account recommended?", "Is the donated amount rightly used for Poor People?"],
+         "responses": ["Akshaya Patra accepts online donations through their portal: https://www.akshayapatra.org/onlinedonations. Support our noble goal by donating. Each beneficiary’s yearly mid-day meal cost Rs. 1100 and contains locally palatable meals that can be relished by the children. Select Wire Transfer mode if you want to make account to account transfer (in India/Abroad). Avail tax exemption under Section 80G. Donating to an individuals account is not recommended unless you know them personally"],
+         "context": [""]
+        },
+        {"tag": "goals",
+         "patterns": ["What are Akshaya Patra's goals?", "Show me their goals", "What are their goals?", "Goals?"],
+         "responses": ["Through our Mid-Day Meal Programme, our attempt is to feed the millions of children in India who lack the means, but, have the zeal to learn and achieve. By feeding them one wholesome meal a day, we give them the nourishment and motivation they need to pursue an education for a better future. It is our endeavour to reach out to every child at the grass root level of the society", "Our goal is to make sure that no child is deprived of an education because of hunger. We strive to feed 5 million children by 2025"],
+         "context": [""]
+        },
+        {"tag": "tax",
+         "patterns": ["Will I get a tax benifit for donating?", "Are Donations Deductible in Tax?", "Tax benifit?", "Do I get any tax benifit?", "Donation tax benifit?", "Tax benifit on donating with cash?", "Cash donation tax benifit?"],
+         "responses": ["As per the revised tax exemption act, effective April 1, 2017, donations above Rs 500 to Akshaya Patra will be eligible for 50% tax exemption under Section 80G of Income Tax Act. By contributing to Akshaya Patra, you will help in feeding school children and also help yourselves with tax deduction benefit. For more information you can visit: https://www.akshayapatra.org/tax-exemption-donation-faqs", "The deductions under the Section 80G are the contributions that you have made to some charitable organisations or institutions. However, not all donations are eligible under this section. Cash donations above Rs.2,000 is not applicable for 80G certificates. To know more visit: https://www.akshayapatra.org/tax-exemption-donation-faqs"],
+         "context": [""]
+        },
+        {"tag": "trust",
+         "patterns": ["Can I trust Akshaya Patra", "How can I trust you?", "Is Akshaya Patra good?", "Are you really helping hungry children?", "Are you trust worthy?", "Is the donated amount rightly used for Poor People?"],
+         "responses": ["Akshaya Patra is completely Authentic and you can donate how much ever money you want, without any apprehension. The organisation was established in 2000 and has fed 1,802,517 school children since. We strive to help hungry children and also to get them the education that they deserve."],
+         "context": [""]
+        }
+   ]
+}
